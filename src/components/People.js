@@ -3,7 +3,9 @@ import "../App.css";
 
 class People extends Component {
   render() {
-    return <h1 className="People">People</h1>;
+    return <div className="People">
+        <h1>People</h1> 
+    </div>
   }
 }
 

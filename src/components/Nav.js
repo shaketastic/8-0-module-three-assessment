@@ -12,28 +12,24 @@ class Nav extends Component {
 //     };
 //   }
   render() {
-    return <div className="Navbar" >
-            <div className="logo" >
+    return <div className="nav" >
+       
         <Link to="/">
-            <img 
-            className="pikachu-totoro"
+        <img 
+            className="nav img"
             src="https://w0.peakpx.com/wallpaper/505/598/HD-wallpaper-pikachu-totoro-ghibli-pikachu-pokeball-pokemon-totoro.jpg"
             alt="pikachu totoro logo"
             width="300"
             height="400"
             />
         </Link>
-
-    <nav>
         <ul>
         <li><Link to="/movies">Movies</Link></li>
         <li><Link to="/people">People</Link></li>
         <li><Link to="/locations">Locations</Link></li>
         </ul>
-    </nav> 
-        </div>
     </div>
     }
-  };
+  }
 
 export default Nav;
